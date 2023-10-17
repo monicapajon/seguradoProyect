@@ -9,10 +9,14 @@ body {
   margin: 0;
   min-height: 100vh;
   background-image: url(/imgs/pink-g484d8ed12_1920.jpg);
- 
 }
 
- .container {
+#search {
+
+  justify-content: space-between;
+}
+
+.container {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -20,21 +24,22 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-} 
+}
 
 .buttons {
-    justify-content: flex-end;
-  }
-  .image {
-    max-width: 350px;
-    margin: 0 auto;
-    opacity: 0.8;
-  }
+  justify-content: flex-end;
+}
 
- .custom-shadow {
-  box-shadow: -14px -12px 5px 0px rgba(0,0,0,0.3);
--webkit-box-shadow: -14px -12px 5px 0px rgba(0,0,0,0.3);
--moz-box-shadow: -14px -12px 5px 0px rgba(0,0,0,0.3);
- 
- 
+.image {
+  max-width: 350px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.custom-shadow {
+  box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
+
+
 }

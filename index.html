@@ -13,9 +13,9 @@
 
   <!-- Estilos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-    crossorigin="anonymous" />
+    crossorigin="anonymous" /> -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script> -->
   <link rel="stylesheet" href="styles.css" />
@@ -24,7 +24,8 @@
 
 <body>
 
-  <!--Comienzo de Header-->
+
+  <!------------------------------------------- Header--------------------------------------->
 
   <header>
     <nav class="navbar has-shadow is-spaced is-primary" role="navigation" aria-label="main navigation">
@@ -52,11 +53,12 @@
       </div>
     </nav>
   </header>
-  <!------------------------------------- Fin de Header ---------------------------------->
-
+  <!------------------------------------- End Header ------------------------------------->
+  <!----------------------------------- Search and Checkbox---------------------------- -->
+  <div id="search" class="container"></div>
   <div id="cards" class="container"></div>
 
-  <!-- Cards template -->
+  <!-------------------------------------- Cards template------------------------------- -->
   <template id="card-template">
     <div class="card" style="min-width: 300px; padding: 8px;">
       <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
@@ -80,7 +82,7 @@
       </div>
     </div>
   </template>
-  <!-- End cards template -->
+  <!------------------------------------ End cards template----------------------------- -->
   <script src="crud.js"></script>
   <script src="fakedata.js"></script>
   <script src="dom.js"></script>
