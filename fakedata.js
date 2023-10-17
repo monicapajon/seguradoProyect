@@ -1,5 +1,5 @@
-const events = [
-    {
+var events = [
+  {
     _id: 1,
     name: "Collectivities Party",
     category: "Food",
@@ -10,8 +10,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 42756
-    },
-    {
+  },
+  {
     _id: 2,
     name: "Jurassic Park",
     category: "Museum",
@@ -22,8 +22,8 @@ const events = [
     price: 3,
     capacity: 10000,
     assistance: 6589
-    },
-    {
+  },
+  {
     _id: 3,
     name: "Metallica in concert",
     category: "Concert",
@@ -34,8 +34,8 @@ const events = [
     price: 20,
     capacity: 500000,
     assistance: 497981
-    },
-    {
+  },
+  {
     _id: 4,
     name: "10K 4 life",
     category: "Race",
@@ -46,8 +46,8 @@ const events = [
     price: 2,
     capacity: 200000,
     assistance: 198900
-    },
-    {
+  },
+  {
     _id: 5,
     name: "School's book fair",
     category: "Books",
@@ -58,8 +58,8 @@ const events = [
     price: 2,
     capacity: 50000,
     assistance: 38429
-    },
-    {
+  },
+  {
     _id: 6,
     name: "Aladdin",
     category: "Cinema",
@@ -70,8 +70,8 @@ const events = [
     price: 4,
     capacity: 2500,
     assistance: 1875
-    },
-    {
+  },
+  {
     _id: 7,
     name: "Arabic holidays",
     category: "Food",
@@ -82,8 +82,8 @@ const events = [
     price: 10,
     capacity: 50000,
     estimate: 50000
-    },
-    {
+  },
+  {
     _id: 8,
     name: "Korean style",
     category: "Food",
@@ -94,8 +94,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 48516
-    },
-    {
+  },
+  {
     _id: 9,
     name: "Japanese style",
     category: "Food",
@@ -106,8 +106,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 49618
-    },
-    {
+  },
+  {
     _id: 10,
     name: "Straight from Middle East",
     category: "Food",
@@ -118,8 +118,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 42756
-    },
-    {
+  },
+  {
     _id: 11,
     name: "Take away",
     category: "Food",
@@ -130,8 +130,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 42756
-    },
-    {
+  },
+  {
     _id: 12,
     name: "Italian style",
     category: "Food",
@@ -142,8 +142,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 42756
-    },
-    {
+  },
+  {
     _id: 13,
     name: "Fantasy books",
     category: "Books",
@@ -154,8 +154,8 @@ const events = [
     price: 4,
     capacity: 50000,
     assistance: 44029
-    },
-    {
+  },
+  {
     _id: 14,
     name: "Just for your kitchen",
     category: "Books",
@@ -166,8 +166,8 @@ const events = [
     price: 2,
     capacity: 50000,
     estimate: 5000
-    },
-    {
+  },
+  {
     _id: 15,
     name: "BestSeller",
     category: "Books",
@@ -178,8 +178,8 @@ const events = [
     price: 5,
     capacity: 50000,
     estimate: 48000
-    },
-    {
+  },
+  {
     _id: 16,
     name: "Just Harry",
     category: "Books",
@@ -190,8 +190,8 @@ const events = [
     price: 5,
     capacity: 50000,
     estimate: 50000
-    },
-    {
+  },
+  {
     _id: 17,
     name: "Comicon",
     category: "Party",
@@ -202,8 +202,8 @@ const events = [
     price: 10,
     capacity: 50000,
     assistance: 45781
-    },
-    {
+  },
+  {
     _id: 18,
     name: "Spring Day",
     category: "Party",
@@ -214,8 +214,8 @@ const events = [
     price: 10,
     capacity: 50000,
     estimate: 30000
-    },
-    {
+  },
+  {
     _id: 19,
     name: "Cultures",
     category: "Party",
@@ -226,8 +226,8 @@ const events = [
     price: 2,
     capacity: 50000,
     estimate: 45000
-    },
-    {
+  },
+  {
     _id: 20,
     name: "For the little ones",
     category: "Party",
@@ -238,8 +238,8 @@ const events = [
     price: 1,
     capacity: 50000,
     estimate: 50000
-    },
-    {
+  },
+  {
     _id: 21,
     name: "Epic party",
     category: "Party",
@@ -250,8 +250,8 @@ const events = [
     price: 2,
     capacity: 50000,
     estimate: 50000
-    },
-    {
+  },
+  {
     _id: 22,
     name: "15K NY",
     category: "Race",
@@ -262,8 +262,8 @@ const events = [
     price: 5,
     capacity: 950000,
     assistance: 926981
-    },
-    {
+  },
+  {
     _id: 23,
     name: "15K Buenos Aires",
     category: "Race",
@@ -274,8 +274,8 @@ const events = [
     price: 3,
     capacity: 500000,
     estimate: 300000
-    },
-    {
+  },
+  {
     _id: 24,
     name: "Buenos Aires 2023",
     category: "Race",
@@ -286,8 +286,8 @@ const events = [
     price: 3,
     capacity: 500000,
     estimate: 50000
-    },
-    {
+  },
+  {
     _id: 25,
     name: "New York 2023",
     category: "Race",
@@ -298,8 +298,8 @@ const events = [
     price: 5,
     capacity: 1000000,
     estimate: 1000000
-    },
-    {
+  },
+  {
     _id: 26,
     name: "For Life 2nd Edition",
     category: "Race",
@@ -310,8 +310,8 @@ const events = [
     price: 2,
     capacity: 300000,
     estimate: 270500
-    },
-    {
+  },
+  {
     _id: 27,
     name: "Cancer Marathon",
     category: "Race",
@@ -322,8 +322,8 @@ const events = [
     price: 2,
     capacity: 300000,
     estimate: 300000
-    },
-    {
+  },
+  {
     _id: 28,
     name: "Electronic Fest",
     category: "Concert",
@@ -334,8 +334,8 @@ const events = [
     price: 20,
     capacity: 500000,
     assistance: 488005
-    },
-    {
+  },
+  {
     _id: 29,
     name: "Popular Music",
     category: "Concert",
@@ -346,8 +346,8 @@ const events = [
     price: 20,
     capacity: 500000,
     assistance: 464780
-    },
-    {
+  },
+  {
     _id: 30,
     name: "Classics",
     category: "Concert",
@@ -358,8 +358,8 @@ const events = [
     price: 20,
     capacity: 500000,
     assistance: 421988
-    },
-    {
+  },
+  {
     _id: 31,
     name: "Opera",
     category: "Concert",
@@ -370,8 +370,8 @@ const events = [
     price: 20,
     capacity: 500000,
     estimate: 500000
-    },
-    {
+  },
+  {
     _id: 32,
     name: "Reggaeton 2022",
     category: "Concert",
@@ -382,8 +382,8 @@ const events = [
     price: 20,
     capacity: 500000,
     estimate: 500000
-    },
-    {
+  },
+  {
     _id: 33,
     name: "Parisian Museum",
     category: "Museum",
@@ -394,8 +394,8 @@ const events = [
     price: 10,
     capacity: 5200,
     assistance: 3506
-    },
-    {
+  },
+  {
     _id: 34,
     name: "Abstract Art",
     category: "Museum",
@@ -406,8 +406,8 @@ const events = [
     price: 2,
     capacity: 1000,
     estimate: 1000
-    },
-    {
+  },
+  {
     _id: 35,
     name: "Buenos Aires Museum",
     category: "Museum",
@@ -418,8 +418,8 @@ const events = [
     price: 2,
     capacity: 1000,
     estimate: 1000
-    },
-    {
+  },
+  {
     _id: 36,
     name: "Acropolis",
     category: "Museum",
@@ -430,8 +430,8 @@ const events = [
     price: 10,
     capacity: 1600,
     estimate: 1350
-    },
-    {
+  },
+  {
     _id: 37,
     name: "British Museum",
     category: "Museum",
@@ -442,5 +442,5 @@ const events = [
     price: 8,
     capacity: 1200,
     estimate: 980
-    }
-    ]
+  }
+]

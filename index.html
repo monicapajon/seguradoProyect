@@ -17,10 +17,8 @@
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script> -->
   <link rel="stylesheet" href="styles.css" />
-
-  
 
 </head>
 
@@ -55,125 +53,37 @@
     </nav>
   </header>
   <!------------------------------------- Fin de Header ---------------------------------->
-   <!-- <-- comienzo de la card 1----- -->
-  <div id="cards" class="container">
-  <div class="card" style="width: 300px; padding: 8px;"> 
-     <div class="card-image custom-shadow">  <!-- Añadir la clase custom-shadow aquí -->
-      <figure class="image is-4by3">
-        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
-      </figure>
-    </div>
-    <div class="card-content">
-      <p class="title is-5 has-text-centered">Título</p>
-      <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
-      <div class="content">  
 
+  <div id="cards" class="container"></div>
 
-        <!-- Contenido de la tarjeta--
-
-        < Precio y botón -->
-        <div class="columns is-vcentered">
-          <div class="column is-6 custom-spacing">
-            <p class="is-size-6 has-text-weight-bold is-spaced">Price: $20,000</p>
-          </div>
-          <div class="column is-6 has-text-right">
-            <a class="button is-small is-primary custom-shadow">Ver Más</a>
-          </div>
-        </div>
+  <!-- Cards template -->
+  <template id="card-template">
+    <div class="card" style="min-width: 300px; padding: 8px;">
+      <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
+        <figure class="image is-4by3">
+          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
+        </figure>
       </div>
-    </div>
-  </div>
- <!-- -----------------fin de card 1--------------------------------------------------- -->
-
- <!------------------- Inicio de card 2------------------------------------------------- -->
-  <div class="card" style="width: 300px; padding: 8px;">
-    <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
-      <figure class="image is-4by3">
-        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
-      </figure>
-    </div>
-    <div class="card-content">
-      <p class="title is-5 has-text-centered">Título</p>
-      <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
-      <div class="content">
-        <!-- Contenido de la tarjeta -->
-
-        <!-- Precio y botón -->
-         <div class="columns is-vcentered">
-          <div class="column is-6 custom-spacing">
-            <p class="is-size-6 has-text-weight-bold is-spaced">Price: $20,000</p>
-          </div>
-          <div class="column is-6 has-text-right">
-            <a class="button is-small is-primary custom-shadow">Ver Más</a>
+      <div class="card-content">
+        <p class="title is-5 has-text-centered">Título</p>
+        <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
+        <div class="content">
+          <div class="columns is-vcentered">
+            <div class="column is-6 custom-spacing">
+              <p class="is-size-6 has-text-weight-bold is-spaced">Price: $20,000</p>
+            </div>
+            <div class="column is-6 has-text-right">
+              <a class="button is-small is-primary custom-shadow">Ver Más</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div> 
-  <!------------------- Fin de Card 2-------------------------------- -->
- <!------------------- Inicio de card 3------------------------------------------------- -->
- <div class="card" style="width: 300px; padding: 8px;">
-  <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
-     <figure class="image is-4by3">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
-    </figure>
-  </div>
-  <div class="card-content">
-    <p class="title is-5 has-text-centered">Título</p>
-    <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
-    <div class="content"> 
-      <!-- Contenido de la tarjeta -->
-
-      <!-- Precio y botón -->
-       <div class="columns is-vcentered"> 
-        <div class="column is-6 custom-spacing">
-          <p class="is-size-6 has-text-weight-bold is-spaced">Price: $20,000</p>
-        </div>
-        <div class="column is-6 has-text-right">
-          <a class="button is-small is-primary custom-shadow">Ver Más</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> 
-<!----------------------------- Fin de Card 3-------------------------------- -->
-
- <!------------------- Inicio de card 4------------------------------------------------- -->
-  <div class="card" style="width: 300px; padding: 8px;">
-  <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
-     <figure class="image is-4by3">
-      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
-    </figure>
-  </div>
-  <div class="card-content">
-    <p class="title is-5 has-text-centered">Título</p>
-    <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
-    <div class="content"> 
-      <!-- Contenido de la tarjeta -->
-
-      <!-- Precio y botón -->
-       <div class="columns is-vcentered">
-        <div class="column is-6 custom-spacing">
-          <p class="is-size-6 has-text-weight-bold is-spaced">Price: $20,000</p>
-        </div>
-        <div class="column is-6 has-text-right">
-          <a class="button is-small is-primary custom-shadow">Ver Más</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> 
-<!----------------------------- Fin de Card 4-------------------------------- -->
- 
-
-
-
-
- </div> 
-
+  </template>
+  <!-- End cards template -->
   <script src="crud.js"></script>
+  <script src="fakedata.js"></script>
   <script src="dom.js"></script>
 </body>
 
 </html>
-
