@@ -44,21 +44,45 @@ searchDiv.appendChild(searchInput);
 searchContainer.appendChild(searchDiv);
 
 //----------------------------------- CARDS----------------------------------------------
+
 // @ts-nocheck
 function showEvents(eventsToShow) {
   const cardsContainer = document.getElementById('cards');
   const cardTemplate = document.getElementById('card-template');
-  // @ts-ignore
-  cardsContainer.textContent = ''
 
-  eventsToShow.forEach(x => {
-    const newCard = cardTemplate?.content.cloneNode(true);
-    const img = newCard.querySelector('img');
-    img.src = x.image
+  // Limpiar el contenido del contenedor de tarjetas
+  cardsContainer.innerHTML = '';
 
+  eventsToShow.forEach(event => {
+    const newCard = cardTemplate.content.cloneNode(true);
 
-    cardsContainer?.appendChild(newCard)
-  })
+    // Modificar el contenido de la tarjeta con los datos del evento
+    const cardImage = newCard.querySelector('.card-image img');
+    cardImage.src = event.image;
+
+    const title = newCard.querySelector('.title');
+    title.textContent = event.name;
+
+    const subtitle = newCard.querySelector('.subtitle');
+    subtitle.textContent = event.description;
+
+    const price = newCard.querySelector('.is-size-6');
+    price.textContent = `Price: $${event.price}`;
+
+    const detailsLink = newCard.querySelector('.button');
+    detailsLink.href = `../pages/details.html?id=${event._id}`;
+    detailsLink.textContent = 'Details';
+
+    cardsContainer.appendChild(newCard);
+  });
 }
 
-showEvents(events)
+// Llamar a la función para mostrar las tarjetas
+showEvents(events);
+
+
+
+
+
+
+

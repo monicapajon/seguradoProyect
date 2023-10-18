@@ -43,6 +43,8 @@
           <a class="navbar-item" id="ver-balance">
             <i class="fas fa-chart-line mr-2" aria-hidden="true"></i>Home</a>
           <a class="navbar-item" id="ver-categorias">
+
+    
             <i class="fas fa-tag mr-2" aria-hidden="true"></i>Upcoming Events</a>
           <a class="navbar-item" id="ver-reportes"><i class="fas fa-chart-pie mr-2" aria-hidden="true"></i>Past
             Events</a>
@@ -57,17 +59,19 @@
   <!----------------------------------- Search and Checkbox---------------------------- -->
   <div id="search" class="container"></div>
   <div id="cards" class="container"></div>
+  <!------------------------------------End Search and Checkbox------------------------- -->
+
 
   <!-------------------------------------- Cards template------------------------------- -->
   <template id="card-template">
     <div class="card" style="min-width: 300px; padding: 8px;">
       <div class="card-image custom-shadow"> <!-- Añadir la clase custom-shadow aquí -->
-        <figure class="image is-4by3">
+         <figure class="image is-4by3">
           <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Imagen de ejemplo">
         </figure>
       </div>
       <div class="card-content">
-        <p class="title is-5 has-text-centered">Título</p>
+        <p class="title is-5 has-text-centered">Imagen</p>
         <p class="subtitle is-6 has-text-centered">Texto descriptivo</p>
         <div class="content">
           <div class="columns is-vcentered">
@@ -81,7 +85,11 @@
         </div>
       </div>
     </div>
-  </template>
+  </template> 
+
+
+ 
+
   <!------------------------------------ End cards template----------------------------- -->
   <script src="crud.js"></script>
   <script src="fakedata.js"></script>

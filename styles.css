@@ -17,6 +17,7 @@ body {
 }
 
 .container {
+  flex-wrap: wrap;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -43,3 +44,6 @@ body {
 
 
 }
+
+
+
