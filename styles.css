@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
 }
 
-.container {
+ .container {
   flex-wrap: wrap;
   text-align: center;
   display: flex;
@@ -25,7 +25,7 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-}
+} 
 
 .buttons {
   justify-content: flex-end;
