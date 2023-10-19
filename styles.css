@@ -31,11 +31,13 @@ body {
   justify-content: flex-end;
 }
 
-.image {
+/* .image {
   max-width: 350px;
   margin: 0 auto;
   opacity: 0.8;
-}
+} */
+
+
 
 .custom-shadow {
   box-shadow: -14px -12px 5px 0px rgba(0, 0, 0, 0.3);
@@ -44,6 +46,21 @@ body {
 
 
 }
+
+/* Estilos para las tarjetas */
+.card {
+  max-width: calc(25% - 20px); /* 25% del ancho del contenedor y restando el espacio entre las tarjetas */
+  margin: 10px; /* Espacio entre las tarjetas */
+  box-sizing: border-box; /* Evita que el margen agregue ancho adicional */
+}
+
+/* Contenedor de las tarjetas */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 
 
 
